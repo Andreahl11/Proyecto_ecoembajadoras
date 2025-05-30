@@ -2,7 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Acuerdo Gubernativo 164-2021 y las 3Rs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acuerdo Gubernativo 164-2021</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
@@ -11,10 +12,10 @@
         <h1>Acuerdo Gubernativo 164-2021</h1>
         <p>Gestión de residuos, las 3Rs, clasificación y compostaje</p>
         <nav>
-            <a href="#acuerdo" class="btn-nav">Acuerdo</a>
-            <a href="#tresrs" class="btn-nav">Las 3Rs</a>
-            <a href="#clasificacion" class="btn-nav">Clasificación</a>
-            <a href="#compostaje" class="btn-nav">Compostaje</a>
+            <a href="index.html" class="btn-nav">Acuerdo</a>
+            <a href="tresrs.html" class="btn-nav">Las 3Rs</a>
+            <a href="clasificacion.html" class="btn-nav">Clasificación</a>
+            <a href="compostaje.html" class="btn-nav">Compostaje</a>
         </nav>
     </header>
 
@@ -28,7 +29,7 @@
     </section>
 
     <main>
-        <section class="acuerdo" id="acuerdo">
+        <section class="acuerdo">
             <h2>¿Qué es el Acuerdo Gubernativo 164-2021?</h2>
             <p>
                 El <strong>Acuerdo Gubernativo 164-2021</strong> es una normativa de Guatemala que regula la gestión integral de los residuos y desechos sólidos comunes. Su objetivo es promover la reducción, reutilización y reciclaje de los residuos, fomentar la educación ambiental y la participación ciudadana para proteger el medio ambiente y mejorar la calidad de vida.
@@ -39,47 +40,53 @@
                 <li>Fomenta la responsabilidad compartida entre ciudadanos, empresas y gobierno.</li>
                 <li>Busca reducir la contaminación y proteger los recursos naturales.</li>
             </ul>
-            <button class="btn-section" onclick="location.href='#tresrs'">Ir a Las 3Rs</button>
         </section>
 
-        <section class="tresrs" id="tresrs">
-            <h2>Las 3Rs: Reducir, Reutilizar y Reciclar</h2>
-            <img src="https://epale.ec.europa.eu/system/files/inline-images/3R%20project.jpg" alt="Las 3Rs" class="img-section">
-            <ul>
-                <li><strong>Reducir:</strong> Disminuir la cantidad de residuos que generamos, eligiendo productos con menos envases y evitando el desperdicio.</li>
-                <li><strong>Reutilizar:</strong> Volver a usar productos o materiales antes de desecharlos, dándoles una segunda vida.</li>
-                <li><strong>Reciclar:</strong> Transformar los residuos en nuevos productos, separando correctamente los materiales reciclables.</li>
-            </ul>
-            <button class="btn-section" onclick="location.href='#clasificacion'">Ver clasificación de residuos</button>
+        <section class="fomento-3rs">
+            <h2>¡Tú puedes hacer la diferencia!</h2>
+            <div class="fomento-cards">
+                <div class="fomento-card">
+                    <h3>Reduce</h3>
+                    <p>Compra solo lo necesario, elige productos con menos empaque y evita el desperdicio. Cada pequeña acción cuenta para disminuir la cantidad de basura.</p>
+                </div>
+                <div class="fomento-card">
+                    <h3>Reutiliza</h3>
+                    <p>Da una segunda vida a bolsas, frascos, ropa y otros objetos. Reutilizar ayuda a ahorrar recursos y energía.</p>
+                </div>
+                <div class="fomento-card">
+                    <h3>Recicla</h3>
+                    <p>Separa tus residuos y deposítalos en los contenedores correctos. El reciclaje transforma desechos en nuevos productos y protege el planeta.</p>
+                </div>
+            </div>
+            <p class="fomento-mensaje"><strong>¡Súmate al cambio! El futuro del planeta está en tus manos.</strong></p>
         </section>
 
-        <section class="clasificacion" id="clasificacion">
-            <h2>Tipos de Clasificación de Residuos</h2>
-            <img src="https://vidacircular.lat/v1/wp-content/uploads/2024/06/Botes-1024x685.webp" alt="Botes de reciclaje" class="img-section">
-            <ol>
-                <li><strong>Orgánicos:</strong> Restos de comida, cáscaras, residuos de jardín. <br><span class="tip">Tip: ¡Estos pueden ir al compost!</span></li>
-                <li><strong>Inorgánicos reciclables:</strong> Plásticos, metales, papel, cartón, vidrio.</li>
-                <li><strong>Inorgánicos no reciclables:</strong> Papel sanitario, pañales, colillas de cigarro.</li>
-            </ol>
-            <button class="btn-section" onclick="location.href='#compostaje'">¿Qué es el compostaje?</button>
+        <section class="intro-2">
+            <h2>Menú</h2>
         </section>
-
-        <section class="compostaje" id="compostaje">
-            <h2>¿Qué es el Compostaje?</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1u5l6T2w2BF2VCkeYAVc9HDopC9Rvi2sdg&s" alt="Compostaje" class="img-section">
-            <p>
-                El compostaje es un proceso natural que transforma los residuos orgánicos en abono para las plantas. Es una forma sencilla y ecológica de reducir la cantidad de basura y mejorar la calidad del suelo.
-            </p>
-            <ul>
-                <li>Reduce la cantidad de residuos enviados a los vertederos.</li>
-                <li>Enriquece el suelo y mejora su estructura.</li>
-                <li>Disminuye la necesidad de fertilizantes químicos.</li>
-            </ul>
-            <button class="btn-section" onclick="location.href='#acuerdo'">Volver al inicio</button>
+        <section class="menu-opciones">
+            <a href="tresrs.html" class="nav-opciones">
+                <div class="nav-imagen">
+                    <img src="https://epale.ec.europa.eu/system/files/inline-images/3R%20project.jpg" alt="Las 3Rs">
+                </div>
+                <div class="nav-button">Las 3Rs</div>
+            </a>
+            <a href="clasificacion.html" class="nav-opciones">
+                <div class="nav-imagen">
+                    <img src="https://vidacircular.lat/v1/wp-content/uploads/2024/06/Botes-1024x685.webp" alt="Clasificación de residuos">
+                </div>
+                <div class="nav-button">Clasificación</div>
+            </a>
+            <a href="compostaje.html" class="nav-opciones">
+                <div class="nav-imagen">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1u5l6T2w2BF2VCkeYAVc9HDopC9Rvi2sdg&s" alt="Compostaje">
+                </div>
+                <div class="nav-button">Compostaje</div>
+            </a>
         </section>
     </main>
     <footer>
-        <p>Ecoembajadoras &copy; 2025 | Hecho con 🌱 para un mundo mejor por Andrea Hernandez SCJ</p>
+        <p>Eco-embajadoras &copy; 2025 | Hecho con 🌱 para un mundo mejor por Andrea Hernandez SCJ</p>
     </footer>
 </body>
-</html
+</html>
