@@ -2,52 +2,73 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Acuerdo Gubernativo 164-2021 y las 3Rs</title>
-    <link rel="stylesheet" href="informacion.css">
+    <title>Acuerdo Gubernativo 164-2025 y las 3Rs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Acuerdo Gubernativo 164-2021</h1>
-        <p>Conoce sobre la gestión de residuos, las 3Rs y el compostaje</p>
+        <h1>Acuerdo Gubernativo 164-2025</h1>
+        <p>Gestión de residuos, las 3Rs, clasificación y compostaje</p>
+        <nav>
+            <a href="#acuerdo" class="btn-nav">Acuerdo</a>
+            <a href="#tresrs" class="btn-nav">Las 3Rs</a>
+            <a href="#clasificacion" class="btn-nav">Clasificación</a>
+            <a href="#compostaje" class="btn-nav">Compostaje</a>
+        </nav>
     </header>
     <main>
-        <section class="acuerdo">
-            <h2>¿Qué es el Acuerdo Gubernativo 164-2021?</h2>
+        <section class="acuerdo" id="acuerdo">
+            <h2>¿Qué es el Acuerdo Gubernativo 164-2025?</h2>
             <p>
-                El Acuerdo Gubernativo 164-2021 es una normativa de Guatemala que regula la gestión integral de los residuos y desechos sólidos comunes. Su objetivo es promover la reducción, reutilización y reciclaje de los residuos, así como fomentar la educación ambiental y la participación ciudadana para proteger el medio ambiente.
+                El <strong>Acuerdo Gubernativo 164-2025</strong> es una normativa de Guatemala que regula la gestión integral de los residuos y desechos sólidos comunes. Su objetivo es promover la reducción, reutilización y reciclaje de los residuos, fomentar la educación ambiental y la participación ciudadana para proteger el medio ambiente y mejorar la calidad de vida.
             </p>
-        </section>
-
-        <section class="tresrs">
-            <h2>Las 3Rs: Reducir, Reutilizar y Reciclar</h2>
-            <img src="https://epale.ec.europa.eu/system/files/inline-images/3R%20project.jpg" alt="Las 3Rs" class="img-3rs">
             <ul>
-                <li><strong>Reducir:</strong> Disminuir la cantidad de residuos que generamos.</li>
-                <li><strong>Reutilizar:</strong> Volver a usar productos o materiales antes de desecharlos.</li>
-                <li><strong>Reciclar:</strong> Transformar los residuos en nuevos productos.</li>
+                <li>Promueve la separación de residuos en origen.</li>
+                <li>Impulsa campañas de concientización ambiental.</li>
+                <li>Fomenta la responsabilidad compartida entre ciudadanos, empresas y gobierno.</li>
+                <li>Busca reducir la contaminación y proteger los recursos naturales.</li>
             </ul>
         </section>
 
-        <section class="clasificacion">
+        <section class="tresrs" id="tresrs">
+            <h2>Las 3Rs: Reducir, Reutilizar y Reciclar</h2>
+            <img src="https://epale.ec.europa.eu/system/files/inline-images/3R%20project.jpg" alt="Las 3Rs" class="img-section">
+            <ul>
+                <li><strong>Reducir:</strong> Disminuir la cantidad de residuos que generamos, eligiendo productos con menos envases y evitando el desperdicio.</li>
+                <li><strong>Reutilizar:</strong> Volver a usar productos o materiales antes de desecharlos, dándoles una segunda vida.</li>
+                <li><strong>Reciclar:</strong> Transformar los residuos en nuevos productos, separando correctamente los materiales reciclables.</li>
+            </ul>
+            <button class="btn-section" onclick="location.href='#clasificacion'">Ver clasificación de residuos</button>
+        </section>
+
+        <section class="clasificacion" id="clasificacion">
             <h2>Tipos de Clasificación de Residuos</h2>
-            <img src="https://vidacircular.lat/v1/wp-content/uploads/2024/06/Botes-1024x685.webp" alt="Botes de reciclaje" class="img-botes">
+            <img src="https://vidacircular.lat/v1/wp-content/uploads/2024/06/Botes-1024x685.webp" alt="Botes de reciclaje" class="img-section">
             <ol>
-                <li><strong>Orgánicos:</strong> Restos de comida, cáscaras, residuos de jardín.</li>
+                <li><strong>Orgánicos:</strong> Restos de comida, cáscaras, residuos de jardín. <br><span class="tip">Tip: ¡Estos pueden ir al compost!</span></li>
                 <li><strong>Inorgánicos reciclables:</strong> Plásticos, metales, papel, cartón, vidrio.</li>
                 <li><strong>Inorgánicos no reciclables:</strong> Papel sanitario, pañales, colillas de cigarro.</li>
             </ol>
+            <button class="btn-section" onclick="location.href='#compostaje'">¿Qué es el compostaje?</button>
         </section>
 
-        <section class="compostaje">
+        <section class="compostaje" id="compostaje">
             <h2>¿Qué es el Compostaje?</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1u5l6T2w2BF2VCkeYAVc9HDopC9Rvi2sdg&s" alt="Compostaje" class="img-compostaje">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1u5l6T2w2BF2VCkeYAVc9HDopC9Rvi2sdg&s" alt="Compostaje" class="img-section">
             <p>
                 El compostaje es un proceso natural que transforma los residuos orgánicos en abono para las plantas. Es una forma sencilla y ecológica de reducir la cantidad de basura y mejorar la calidad del suelo.
             </p>
+            <ul>
+                <li>Reduce la cantidad de residuos enviados a los vertederos.</li>
+                <li>Enriquece el suelo y mejora su estructura.</li>
+                <li>Disminuye la necesidad de fertilizantes químicos.</li>
+            </ul>
+            <button class="btn-section" onclick="location.href='#acuerdo'">Volver al inicio</button>
         </section>
     </main>
     <footer>
-        <p>Ecoembajadoras &copy; 2021</p>
+        <p>Ecoembajadoras &copy; 2025 | Hecho con 🌱 para un mundo mejor</p>
     </footer>
 </body>
 </html>
